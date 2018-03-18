@@ -6,7 +6,7 @@ Prueba técnica
 
 @section('content')
 
-<h1>hola</h1>
+<h1>hola, <?php echo $name; ?></h1>
 <a href="" class="btn btn-success">hola!</a>
 
 @endsection

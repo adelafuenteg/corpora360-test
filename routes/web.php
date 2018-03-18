@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+
+    $name = 'Álex';
+
+    return view('index', compact('name'));
+});
+
+
+Route::get('/pedidos', function () {
+
+    $pedidos = App\Pedido::all();
+
+    return view('index', compact('pedidos'));
 });
