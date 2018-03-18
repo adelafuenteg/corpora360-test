@@ -17,11 +17,11 @@ class Pedido extends Model
     }
 
     /**
-     * Un cliente puede tener más de un pedido.
+     * Un pedido es de un y solo de un cliente.
      */
-    public function pedido()
+    public function cliente()
     {
-        return $this->belongsTo('App\Pedido');
+        return $this->belongsTo('App\Cliente');
     }
 
 

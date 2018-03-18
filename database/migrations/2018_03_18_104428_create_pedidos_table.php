@@ -15,7 +15,15 @@ class CreatePedidosTable extends Migration
     {
         Schema::create('pedidos', function (Blueprint $table) {
             $table->increments('pedido_id');
-            $table->timestamps();
+            $table->date('fecha_creacion');
+            $table->integer('id_cliente')->unsigned();
+            $table->float('importe');
+        });
+
+        Schema::table('pedidos', function (Blueprint $table) {
+            $table->foreign('id_cliente')
+                  ->references('cliente_id')->on('clientes')
+                  ->onDelete('cascade');
         });
     }
 
