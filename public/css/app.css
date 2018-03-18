@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500);@import url(https://fonts.googleapis.com/css?family=Roboto);/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -9994,13 +9994,53 @@ a.text-dark:focus {
   }
 }
 
-.navbar-laravel {
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  display: none !important;
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.list-group-item.active {
+  background-color: #ffad00;
+  border-color: #ffad00;
+}
+
+a {
+  color: #ffad00;
+}
+
+a:hover {
+  color: #666;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0092ca;
+  border-color: #0092ca;
+}
+
+.btn-primary:hover {
+  background-color: #01729e;
+  border-color: #01729e;
+}
+
+.paginate_button {
+  border: 1px solid;
+  margin-right: 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ffad00;
+  border-color: #ffad00;
+  color: white;
+}
+
+.paginate_button:hover {
+  text-decoration: none;
+  color: #666;
+  cursor: pointer;
 }
 

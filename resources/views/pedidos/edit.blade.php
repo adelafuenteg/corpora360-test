@@ -15,9 +15,9 @@ Prueba técnica
   <div class="col-lg-3">
     <br/>
     <div class="list-group">
-      <a href="../clientes" class="list-group-item active">Clientes</a>
-      <a href="../productos" class="list-group-item">Productos</a>
-      <a href="#" class="list-group-item">Pedidos</a>
+      <a href="/clientes" class="list-group-item active">Clientes</a>
+      <a href="/productos" class="list-group-item">Productos</a>
+      <a href="/pedidos" class="list-group-item">Pedidos</a>
     </div>
 
   </div>
@@ -61,7 +61,7 @@ Prueba técnica
             <input type="text" name="importe" class="form-control" value="{{ $pedido->importe }}">
         </div>
         <div class="form-group">
-            <input type="submit" value="A&ntilde;adir" class="btn btn-primary">
+            <input type="submit" value="Editar" class="btn btn-primary">
         </div>
 
     </form>

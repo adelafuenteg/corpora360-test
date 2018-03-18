@@ -16,8 +16,8 @@ Prueba técnica
     <br/>
     <div class="list-group">
       <a href="#" class="list-group-item active">Clientes</a>
-      <a href="../productos" class="list-group-item">Productos</a>
-      <a href="../pedidos" class="list-group-item">Pedidos</a>
+      <a href="/productos" class="list-group-item">Productos</a>
+      <a href="/pedidos" class="list-group-item">Pedidos</a>
     </div>
 
   </div>
@@ -25,7 +25,7 @@ Prueba técnica
 
   <div class="col-lg-9">
     <br/>
-    <div class="row">
+    <div class="row" style="padding: 0 20px;">
         <a href="/clientes/nuevo" class="btn btn-primary">Añadir nuevo cliente</a>
     </div>
     <br/>
