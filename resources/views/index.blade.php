@@ -32,6 +32,7 @@ Prueba técnica
               <li>Laravel 5.6.12</li>
               <li>Bootstrap 4</li>
               <li>MySQL</li>
+              <li>JavaScript DataTables</li>
             </ul>
 
   </div>
